@@ -1,5 +1,5 @@
 
-#merge join in case of many to a many relation
+#merge join in case of many to many relation
 import heapq 
 
 fileR = ''
