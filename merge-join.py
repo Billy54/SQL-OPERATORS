@@ -1,3 +1,5 @@
+
+#merge join in case of many to a many relation
 import heapq 
 
 fileR = ''
