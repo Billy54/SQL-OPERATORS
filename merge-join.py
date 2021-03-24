@@ -24,10 +24,8 @@ def mergeJoin():
 
     right = readS()
     left = readR()
-    if not right or not left:
-        return
-
-    while 1:
+   
+    while left and right:
         if left[0] == right[0]:
             heapq.heappush(buffer , right)
             joined.write(left[0] + '   ' + left[1] + '   ' + right[1] + '\n')
