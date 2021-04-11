@@ -1,3 +1,5 @@
+#Bill Gewrgoulas
+# cs52954 Uoi
 
 #merge join in case of many to many relation
 import heapq 
